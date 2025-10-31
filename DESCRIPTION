@@ -1,0 +1,26 @@
+Package: trademetrics
+Title: Performance and Risk Analytics for Trading Strategies
+Version: 0.1.0
+Authors@R: 
+    person("Traderverse", "Team", , "team@traderverse.org", role = c("aut", "cre"))
+Description: Calculate performance metrics, risk measures, and generate
+    comprehensive analytics for quantitative trading strategies. Includes
+    return metrics (CAGR, annualized returns), risk-adjusted metrics (Sharpe,
+    Sortino, Calmar ratios), drawdown analysis, and rolling statistics.
+    Part of the Traderverse ecosystem for quantitative trading in R.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends:
+    R (>= 3.5.0)
+Imports:
+    stats
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+URL: https://github.com/Traderverse/trademetrics,
+    https://traderverse.github.io/trademetrics/
+BugReports: https://github.com/Traderverse/trademetrics/issues
