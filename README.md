@@ -243,3 +243,4 @@ trademetrics is part of the **Traderverse** ecosystem:
   <strong>Built with ❤️ for the trading community</strong><br>
   <sub>Making quantitative trading accessible to everyone</sub>
 </p>
+
