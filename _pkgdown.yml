@@ -37,7 +37,7 @@ navbar:
 reference:
 - title: "Return Metrics"
   desc: "Calculate return-based performance metrics"
-- contents:
+  contents:
   - calc_total_return
   - calc_cagr
   - calc_annualized_return
@@ -45,7 +45,7 @@ reference:
   
 - title: "Risk-Adjusted Metrics"
   desc: "Risk-adjusted performance measures"
-- contents:
+  contents:
   - calc_sharpe
   - calc_sortino
   - calc_calmar
@@ -53,7 +53,7 @@ reference:
   
 - title: "Drawdown Analysis"
   desc: "Drawdown calculation and analysis"
-- contents:
+  contents:
   - calc_drawdown
   - calc_max_drawdown
   - calc_average_drawdown
@@ -62,7 +62,7 @@ reference:
   
 - title: "Rolling Statistics"
   desc: "Time-varying metrics"
-- contents:
+  contents:
   - calc_rolling_sharpe
   - calc_rolling_volatility
   - calc_rolling_correlation
@@ -70,7 +70,7 @@ reference:
   
 - title: "Utilities"
   desc: "Helper functions and summaries"
-- contents:
+  contents:
   - performance_summary
   - print.performance_summary
 
