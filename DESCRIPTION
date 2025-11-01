@@ -21,6 +21,11 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+Remotes:
+    Traderverse/tradeengine,
+    Traderverse/tradeio,
+    Traderverse/tradefeatures,
+    Traderverse/tradeviz
 URL: https://github.com/Traderverse/trademetrics,
     https://traderverse.github.io/trademetrics/
 BugReports: https://github.com/Traderverse/trademetrics/issues
