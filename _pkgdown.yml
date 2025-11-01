@@ -3,18 +3,21 @@ template:
   bootstrap: 5
   bootswatch: flatly
   bslib:
-    primary: "#0054a6"
-    
+    primary: '#0054a6'
 home:
-  title: "trademetrics • Performance Analytics for R"
-  description: >
-    Comprehensive performance and risk analytics for quantitative
-    trading strategies. Calculate returns, risk metrics, drawdowns, and more.
-
+  title: trademetrics • Performance Analytics for R
+  description: |
+    Comprehensive performance and risk analytics for quantitative trading strategies. Calculate returns, risk metrics, drawdowns, and more.
 navbar:
   structure:
-    left: [home, reference, articles, news]
-    right: [search, github]
+    left:
+    - home
+    - reference
+    - articles
+    - news
+    right:
+    - search
+    - github
   components:
     home:
       icon: fas fa-home fa-lg
@@ -33,51 +36,38 @@ navbar:
     github:
       icon: fab fa-github fa-lg
       href: https://github.com/Traderverse/trademetrics
-
 reference:
-- title: "Return Metrics"
-  desc: "Calculate return-based performance metrics"
+- title: All Functions
+  desc: All functions in trademetrics
   contents:
-  - calc_total_return
-  - calc_cagr
   - calc_annualized_return
   - calc_annualized_volatility
-  
-- title: "Risk-Adjusted Metrics"
-  desc: "Risk-adjusted performance measures"
-  contents:
-  - calc_sharpe
-  - calc_sortino
-  - calc_calmar
-  - calc_information_ratio
-  
-- title: "Drawdown Analysis"
-  desc: "Drawdown calculation and analysis"
-  contents:
-  - calc_drawdown
-  - calc_max_drawdown
   - calc_average_drawdown
+  - calc_cagr
+  - calc_calmar
   - calc_drawdown_duration
+  - calc_drawdown
+  - calc_information_ratio
+  - calc_max_drawdown
   - calc_recovery_time
-  
-- title: "Rolling Statistics"
-  desc: "Time-varying metrics"
-  contents:
+  - calc_rolling_beta
+  - calc_rolling_correlation
   - calc_rolling_sharpe
   - calc_rolling_volatility
-  - calc_rolling_correlation
-  - calc_rolling_beta
-  
-- title: "Utilities"
-  desc: "Helper functions and summaries"
-  contents:
+  - calc_sharpe
+  - calc_sortino
+  - calc_total_return
+  - drawdown-metrics
   - performance_summary
   - print.performance_summary
-
+  - return-metrics
+  - risk-metrics
+  - rolling-metrics
+  - utils
 footer:
   structure:
     left: developed_by
     right: built_with
   components:
-    developed_by: "Developed by the Traderverse team"
-    built_with: "Built with [pkgdown](https://pkgdown.r-lib.org/)"
+    developed_by: Developed by the Traderverse team
+    built_with: Built with [pkgdown](https://pkgdown.r-lib.org/)
